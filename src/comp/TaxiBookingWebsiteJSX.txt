@@ -1,0 +1,74 @@
+ <section id="tariffs">
+        <div class="container">
+            <h4 class="yellow">See Our</h4>
+            <h2 class="h1">Tariffs</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6" id="standardid1">
+                    <div class="item matchHeight">
+                        <div class="image"><img src="assets/images/wagon-r.png"  class="full-width mini" alt="Tariff"></div>
+                        <h4>MINI</h4>
+                        <Strong style="font-size: 15px;">Seating 4+1</Strong>
+                        <p>The perfect cab for a quick ride </p>
+                        <p style="padding-bottom: 20px">Indica, Etios Liva, Wagon R, Alto, Celerio, Indigo, Bolt</p>
+                        <div class="price">Rs. 11<span>/km (Non-AC)</span></div>
+						<div class="price">Rs. 12<span>/km (AC)</span></div>
+                    </div>
+                </div>
+               
+                <div class="col-md-4 col-sm-6" id="standardid2">
+                    <div class="item matchHeight">
+                        <div class="image"><img src="assets/images/nissansunny.png" class="full-width" alt="Tariff"></div>
+                        <h4>SEDAN</h4>
+                        <Strong style="font-size: 15px;">Seating 4+1</Strong>
+                        <p>Travel in style with the premium home cars.</p>
+                        <p style="padding-bottom: 15px">Swift, Etios, Ford Amaze, Sunny</p>
+                        <div class="price">Rs. 12<span>/km (Non-AC)</span></div>
+						<div class="price">Rs. 13<span>/km (AC)</span></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" id="standardid3">
+                    <div class="item matchHeight">
+                        <div class="image"><img src="assets/images/tavera.png" class="full-width tavera" alt="Tariff"></div>
+                        <h4>MUV</h4>
+                        <Strong style="font-size: 15px;">Seating 8+1</Strong>
+                        <p>The people mover, for the joint family travel.</p>
+                        <p>Tavera, Sumo, Eco, Bolero</p>
+                        <div class="price">Rs. 14<span>/km (Non-AC)</span></div>
+						<div class="price">Rs. 15<span>/km (AC)</span></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" id="standardid4" style="padding-top: 30px">
+                    <div class="item matchHeight">
+                        <div class="image"><img src="assets/images/xylo.png" class="full-width xylo" alt="Tariff"></div>
+                        <h4>MUV PRIME</h4>
+                        <Strong style="font-size: 15px;">Seating 7+1</Strong>
+                        <p>The class comfy ride for the complete family.</p>
+                        <p>
+                            Xylo, Enjoy, Ertiga, Lodgy, Marazzo</p>
+                        <div class="price">Rs. 14<span>/km (Non-AC)</span></div>
+						<div class="price">Rs. 15<span>/km (AC)</span></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6" id="standardid5" style="padding-top: 30px">
+                    <div class="item matchHeight vip">
+                        <div class="image"><img src="assets/images/innova.png" class="full-width" alt="Tariff"></div>
+                        <h4 class="red">SUV</h4>
+                        <Strong style="font-size: 15px;">Seating 7+1</Strong>
+                        <p>When Luxury meets Comfort.</p>
+                        <p>Innova Crysta</p>
+                        <div class="price">Rs. 17<span>/km (AC)</span></div>
+                    </div>
+                </div>
+				<div class="col-md-4 col-sm-6" id="standardid6" style="padding-top: 30px">
+                    <div class="item matchHeight vip">
+                        <div class="image"><img src="assets/images/tempo.png" class="full-width" alt="Tariff"></div>
+                        <h4 class="red">Tempo</h4>
+                        <Strong style="font-size: 15px;">Seating 12+1</Strong>
+                        <p>Spacious, Safe and Comfortable.</p>
+                        <p>Tempo Traveler</p>
+                        <div class="price">Rs. 25<span>/km</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

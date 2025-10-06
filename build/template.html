@@ -1,0 +1,61 @@
+<div
+  style="
+    font-family: system-ui, sans-serif, Arial;
+    font-size: 14px;
+    color: #333;
+    padding: 14px 8px;
+    background-color: #F3B20E;
+  "
+>
+  <div style="max-width: 600px; margin: auto; background-color: #F3B20E; border-radius: 8px; overflow: hidden; border: 3px solid #black;">
+    <div style="background-color: #black; color: black; padding: 16px; font-size: 18px; font-weight: bold;">
+      Booking Confirmation
+    </div>
+
+    <div style="padding: 16px; line-height: 1.6;">
+      <p>Hi,</p>
+      <p>Thank you for booking with us! Here are your booking details:</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin-top: 16px;">
+        <tr>
+          <td style="padding: 8px; font-weight: bold;">Pickup Location:</td>
+          <td style="padding: 8px;">${pickup}</td>
+        </tr>
+        <tr>
+          <td style="padding: 8px; font-weight: bold;">Destination:</td>
+          <td style="padding: 8px;">${destination}</td>
+        </tr>
+        <tr>
+          <td style="padding: 8px; font-weight: bold;">Date:</td>
+          <td style="padding: 8px;">${date}</td>
+        </tr>
+        <tr>
+          <td style="padding: 8px; font-weight: bold;">Time:</td>
+          <td style="padding: 8px;">${time}</td>
+        </tr>
+        <tr>
+          <td style="padding: 8px; font-weight: bold;">Vehicle Type:</td>
+          <td style="padding: 8px;">${vehicleType}</td>
+        </tr>
+        <tr>
+          <td style="padding: 8px; font-weight: bold;">Distance:</td>
+          <td style="padding: 8px;">${distance} km</td>
+        </tr>
+        <tr>
+          <td style="padding: 8px; font-weight: bold;">Duration:</td>
+          <td style="padding: 8px;">${duration} mins</td>
+        </tr>
+        <tr>
+          <td style="padding: 8px; font-weight: bold;">Fare:</td>
+          <td style="padding: 8px;">$${fare}</td>
+        </tr>
+      </table>
+
+      <p style="margin-top: 16px;">We look forward to serving you!</p>
+
+      <p style="color: #999; font-size: 12px; margin-top: 24px;">
+        This email was sent to you automatically. Please do not reply.
+      </p>
+    </div>
+  </div>
+</div>
